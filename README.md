@@ -30,7 +30,7 @@ npm run dev
 ## Usage
 
 ```html
-<script src="//at.alicdn.com/t/font_979167_zrlpqrk8y0o.js"></script><!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">

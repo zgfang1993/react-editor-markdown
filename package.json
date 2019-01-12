@@ -1,6 +1,6 @@
 {
   "name": "react-editor-markdown",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "一款简洁易用的React Markdown编辑器",
   "scripts": {
     "dev": "webpack-dev-server --config ./config/webpack.config.dev.js",
