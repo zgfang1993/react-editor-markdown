@@ -1,0 +1,31 @@
+.mdEdiror_toolbarbtn {
+  margin: 0 2px;
+  background-color: transparent;
+  border: none;
+  vertical-align: middle;
+  border-radius: 5px;
+  padding: 0 6px;
+  height: 24px;
+  color: #8590A6;
+  &:hover {
+    background-color: #F6F6F6;
+    border-color: #EBEBEB;
+    cursor: pointer;
+  }
+}
+.mdEdiror_toolbarbtn_icon {
+  width: 15px;
+  height: 24px;
+  fill: #8590A6;
+}
+.mdEdiror_toolbarbtn_label {
+  display: none;
+}
+.mdEdiror_toolbarbtn_separator {
+  display: inline-block;
+  width: 1px;
+  height: 20px;
+  margin: 0 3px;
+  background: #EBEBEB;
+  vertical-align: middle;
+}

@@ -1,0 +1,117 @@
+@import '../../../node_modules/codemirror/lib/codemirror.css';
+@import '../../../node_modules/prismjs/themes/prism.css';
+// @import '../../../node_modules/prismjs/themes/prism-coy.css';
+@import '../../../node_modules/prismjs/themes/prism-okaidia.css';
+
+.mdEdiror {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #EBEBEB;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.toolbar {
+  border-bottom: 1px solid #EBEBEB;
+  padding: 5px 13px;
+}
+.editor-container {
+  display: flex;
+  height: calc(100% - 35px);
+}
+.editor {
+  max-width: 50%;
+  min-width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  .CodeMirror {
+    height: 100%;
+    .CodeMirror-gutters {
+      background: #c2c7d324;
+    }
+    .CodeMirror-linenumber {
+      text-align: center;
+      color: #8590A6;
+    }
+    pre {
+      padding: 0 12px;
+    }
+  }
+  &.editor-only {
+    width: 100%;
+  }
+  textarea {
+    width: 100%;
+    height: 600px;
+    resize: none;
+    color: #333;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    overflow: auto;
+  }
+}
+
+.preview {
+  max-width: 50%;
+  min-width: 50%;
+  height: 100%;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 1.625;
+  font-weight: 400;
+  color: #242A31;
+  font-family: 'Roboto, sans-serif';
+  border-left: 1px solid #EBEBEB;
+  box-sizing: border-box;
+  overflow: auto;
+  blockquote {
+    color: rgb(116, 129, 141);
+    margin: 0px 0px 24px;
+    padding: 0px 0px 0px 12px;
+    border-left: 4px solid rgb(230, 236, 241);
+    border-color: rgb(230, 236, 241);
+  }
+  h1 {
+    position: relative;
+    margin: 0px;
+    margin-bottom: 24px;
+    color: #242A31;
+  }
+  h2 {
+    position: relative;
+    color: #242A31;
+    margin: 32px 0px 24px;
+  }
+  h3 {
+    position: relative;
+    display: flex;
+    color: #242A31;
+    margin: 24px 0px;
+  }
+  b {
+    font-weight: 700;
+  }
+  p {
+    position: relative;
+    margin: 0px;
+    margin-bottom: 24px;
+  }
+  hr {
+    height: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+  }
+  a {
+    color: #2d78d0;
+  }
+  p > code {
+    background-color: rgba(27,31,35,.05);
+    border-radius: 3px;
+    font-size: 85%;
+    margin: 0;
+    padding: .2em .4em;
+  }
+}
