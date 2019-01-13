@@ -1,19 +1,25 @@
 {
   "name": "react-editor-markdown",
-  "version": "1.0.2",
-  "description": "一款简洁易用的React Markdown编辑器",
+  "version": "1.0.3",
+  "description": "一款简洁易用的React Markdown编辑器，基于 Marked.js、CodeMirror、Prism。",
   "scripts": {
     "dev": "webpack-dev-server --config ./config/webpack.config.dev.js",
     "build": "set NODE_ENV=production && webpack --config ./config/webpack.config.prod.js",
     "pub": "npm run build && npm publish"
   },
   "main": "dist/index.js",
-  "files": [
-    "dist"
-  ],
+  "files": [ "dist" ],
   "keywords": ["markdown", "editor", "react", "marked", "codemirror", "prism"],
   "author": "zgfang1993",
-  "license": "ISC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zgfang1993/react-editor-markdown/issues"
+  },
+  "homepage": "https://github.com/zgfang1993/react-editor-markdown.git#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zgfang1993/react-editor-markdown.git"
+  },
   "dependencies": {
     "@babel/runtime": "^7.0.0-beta.46",
     "babel-runtime": "^6.26.0",
