@@ -104,10 +104,6 @@ class Editor extends Component {
       var lang = (infostring || '').match(/\S*/)[0];
       if (this.options.highlight) {
         var out = this.options.highlight(code, lang);
-        console.table({
-          code,
-          out
-        })
         if (out != null && out !== code) {
           escaped = true;
           code = out;
